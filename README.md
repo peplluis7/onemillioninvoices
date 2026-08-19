@@ -1,4 +1,31 @@
-# Temporal Invoice Clearing
+"Temporal Invoice-Graph Algorithm for Path-Enabled Multilateral Clearing"
+
+This repository contains the implementation, tests, manuscript source,
+pseudonymized reproducibility inputs, experimental outputs, and validation
+materials for the 2012–2023 temporal invoice-clearing experiments.
+
+## Main empirical result
+
+Across EUR 99.705 billion of issue-cohort invoice mass, the rolling causal
+daily experiment produces:
+
+- Bounded-cycle clearing (L=8): 43.347% PMR
+- Path-enabled clearing: 48.202% PMR
+- Path advantage: 4.855 percentage points
+
+## Data
+
+The authoritative research-data deposit is available from Mendeley Data:
+
+DOI: 10.17632/28rbmvwsm9.1
+Esteva de la Rosa, Peplluis (2026), “Atomic Common-Day Invoice Clearing: Pseudonymized Invoice Records and Reproducibility Data, 2012–2023”, Mendeley Data, V1
+
+Only pseudonymized research records are distributed. Original company names,
+VAT/CIF identifiers, invoice numbers, source workbooks, and reversible
+identifier mappings are not included.
+
+Reproduction instructions prepared for Mendeley are into this file
+REPRODUCING.md
 
 Reference and reproduction code for atomic common-day path-enabled multilateral clearing,
 complete-candidate bounded-cycle netting, mixed policies, and tractable full-information
