@@ -1,0 +1,18 @@
+cff-version: 1.3.0
+message: "Please cite the associated paper and this software release."
+title: "Temporal Invoice Clearing: Atomic Common-Day Reference Implementation"
+type: software
+authors:
+  - family-names: "Authors"
+    given-names: "The"
+version: 1.3.0
+date-released: 2026-08-18
+license: MIT
+preferred-citation:
+  type: article
+  title: "Atomic Common-Day Invoice Clearing under Causal Daily Scheduling: Path-Enabled and Bounded-Cycle Policies"
+  authors:
+    - family-names: "Authors"
+      given-names: "The"
+  year: 2026
+  journal: "Computers & Industrial Engineering"

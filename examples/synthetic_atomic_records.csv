@@ -1,0 +1,7 @@
+uid,debtor,creditor,amount_cents,issue_date,due_date,status,source,fingerprint,cohort
+r1,company:A,company:B,10000,2025-01-01,2025-01-10,validated,synthetic,,2025
+r2,company:B,company:C,8000,2025-01-03,2025-01-08,validated,synthetic,,2025
+r3,company:C,company:A,5000,2025-01-05,2025-01-09,validated,synthetic,,2025
+r4,company:D,company:B,6000,2025-01-02,2025-01-04,validated,synthetic,,2025
+r5,company:B,company:E,6000,2025-01-02,2025-01-04,validated,synthetic,,2025
+r6,company:F,company:G,3000,2025-01-06,2025-01-12,validated,synthetic,,2025

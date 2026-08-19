@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "temporal-invoice-clearing"
+version = "1.3.0"
+description = "Atomic common-day path and bounded-cycle clearing for due-dated invoice graphs"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "The Authors"}]
+keywords = [
+  "invoice graph",
+  "multilateral clearing",
+  "temporal graph",
+  "working capital",
+  "supply-chain finance",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = [
+  "networkx>=3.4,<4",
+  "numpy>=1.26,<3",
+  "matplotlib>=3.8,<4",
+]
+
+[project.optional-dependencies]
+optimization = [
+  "scipy>=1.12,<2",
+]
+dev = [
+  "pytest>=8.2,<10",
+  "ruff>=0.8,<1",
+  "mypy>=1.13,<2",
+]
+
+[project.scripts]
+temporal-invoice-clearing = "temporal_invoice_clearing.cli:main"
+invoice-clearing = "temporal_invoice_clearing.cli:main"
+
+
+# Add public project URLs after the repository and article DOI exist.
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+ignore = ["E501"]

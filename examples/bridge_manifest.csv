@@ -1,0 +1,2 @@
+cohort,issue_csv,bridge_csv,issue_start_date,issue_end_date,bridge_start_date,execution_end_date
+2025,synthetic_bridge_issue.csv,synthetic_bridge_next.csv,2025-01-01,2025-12-31,2026-01-01,2026-02-28

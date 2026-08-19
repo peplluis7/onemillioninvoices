@@ -1,0 +1,2 @@
+cohort,input_csv,issue_start_date,issue_end_date,execution_end_date
+2025,synthetic_atomic_records.csv,2025-01-01,2025-12-31,2025-12-31

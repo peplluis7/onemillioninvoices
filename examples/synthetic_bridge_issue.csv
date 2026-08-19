@@ -1,0 +1,2 @@
+uid,debtor,creditor,amount_cents,issue_date,due_date,status,source,fingerprint,cohort
+m1,A,B,1000,2025-12-20,2026-01-31,valid,synthetic,m1,2025
