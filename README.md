@@ -97,3 +97,14 @@ failure. Communication cost, acceptance, and welfare remain empirical questions.
 
 The code is MIT licensed. Commercial invoice data remain subject to their original
 confidentiality terms.
+
+## Data
+
+The authoritative research-data deposit is available from Mendeley Data:
+
+DOI: 10.17632/28rbmvwsm9.1
+
+
+## Reproduction
+
+See REPRODUCING.md for complete instructions.
